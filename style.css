@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: #352f5b;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 60px;
+
+}
+
+.task {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+    /* From https://css.glass */
+    background: rgba(18, 13, 13, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(18, 13, 13, 0.35);
+    border-bottom: 2px solid white;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.icon {
+    font-size: 30px;
+    transition: 0.3s;
+
+
+}
+
+.icon:hover {
+    font-size: 32px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.icon-trash-o {
+    margin-right: 10px;
+}
+
+.icon-star,
+.icon-trash-o {
+    opacity: 0.4;
+
+}
+
+.icon-star:hover {
+    color: orange;
+    opacity: 1;
+
+
+
+}
+
+.icon-trash-o:hover {
+    color: orange;
+    opacity: 1;
+
+
+
+}
+.icon-angry2{
+    color:orange;
+    
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+
+}
+form{
+    text-align: center;
+    
+}
+input{
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 35vw;
+    font-size: 21px;
+}
+button{
+    background-color: #352f5b;
+    font-size: 50px;
+    cursor: pointer;
+    position: relative;
+    bottom: -9px;
+    margin-left: 10px;
+
+
+}
+.dn{
+    display: none;
+}
+.icon-heart{
+    font-size: 23px;
+    color:rgb(255,102,102);
+
+}
+.icon-heart:hover{
+    font-size: 26px;
+   transition: 0.2s;
+
+
+}
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+
+}
